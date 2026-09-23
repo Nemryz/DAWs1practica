@@ -481,3 +481,58 @@ textarea {
     grid-column: auto;
   }
 }
+
+/* Importar tipografía Serif desde Google Fonts si no la tienes */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;600&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* Estilos de la tarjeta promocional */
+.font-serif {
+  font-family: 'Fraunces', serif;
+}
+.text-navy {
+  color: #0d233a;
+}
+.text-gold {
+  color: #c49a45;
+}
+
+/* Botón dorado personalizado */
+.btn-gold {
+  background-color: #d8ad57;
+  color: #0d233a;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  padding: 0.75rem 1.75rem;
+  transition: all 0.2s ease;
+}
+.btn-gold:hover {
+  background-color: #c49a45;
+  color: #ffffff;
+}
+
+/* Insignia circular sobre la imagen */
+.badge-exclusive {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background-color: #eedaa2;
+  color: #0d233a;
+  width: 100px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.fine-print {
+  font-size: 0.75rem;
+  color: #6c757d;
+  line-height: 1.35;
+}
