@@ -224,11 +224,14 @@ h3 {
   gap: 20px;
 }
 .feature-card {
-  min-height: 250px;
+  width: 100%;
+  min-height: 0;
+  aspect-ratio: 1 / 1;
   padding: 26px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-self: stretch;
   color: var(--white);
   background-size: cover;
   background-position: center;
@@ -245,12 +248,16 @@ h3 {
   position: relative;
 }
 .feature-card h3 {
+  max-width: 100%;
   margin-bottom: 6px;
   font-size: 29px;
+  text-shadow: 0 2px 8px rgba(18, 38, 32, 0.7);
 }
 .feature-card p {
+  max-width: 100%;
   margin: 0;
   color: #e5ede8;
+  text-shadow: 0 1px 6px rgba(18, 38, 32, 0.9);
 }
 .feature-1 {
   background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85");
