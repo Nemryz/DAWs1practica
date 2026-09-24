@@ -36,11 +36,11 @@ El sitio web es estático, no requiriendo de antemano de un servidor web para su
 
 ## Distribución de responsabilidades
 
-- Thomas Cornejo:  
+- Thomas Cornejo: Inicio / Mitad Alojamiento
 
-- Ignacio Ampuero:
+- Ignacio Ampuero: Reserva con CSS Interno y Externo
 
-- Santiago Herrera:
+- Santiago Herrera: Panoramas / Mitad Alojamiento
 
 ## Estructura del proyecto
 
@@ -51,7 +51,7 @@ proyecto-web/
 ├── pagina3.html
 ├── css/
 │   └── styles.css
-├── img/        (por agregar)
+├── img/ 
 ├── video/
 └── README.md
 
