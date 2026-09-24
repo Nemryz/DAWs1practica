@@ -35,15 +35,98 @@
       </div>
     </section>
 
-    <section class="section two-col">
-      <div>
-        <figure class="contact-figure">
-          <img class="contact-photo" src="img/cordillera-contacto.jpg"
-            alt="Cabaña de madera rodeada de árboles al pie de la cordillera" />
-          <figcaption>Cabaña del refugio, sector Plaza Central</figcaption>
-        </figure>
-        <p class="eyebrow">Contacto</p>
-        <h2>Estamos para ayudarte</h2>
+    <section class="section contact-page">
+      <div class="two-col">
+        <div>
+          <figure class="contact-figure">
+            <img class="contact-photo" src="img/cordillera-contacto.jpg"
+              alt="Cabaña de madera rodeada de árboles al pie de la cordillera" />
+            <figcaption>Cabaña del refugio, sector Plaza Central</figcaption>
+          </figure>
+
+          <div class="map-embed">
+            <iframe
+              title="Mapa de ubicación en la cordillera de los Andes"
+              loading="lazy"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-70.585,-35.441,-70.553,-35.417&layer=mapnik&marker=-35.4292,-70.5689"></iframe>
+            <p class="map-caption">
+              35°25'45.1"S 70°34'07.9"W ·
+              <a
+                href="https://www.openstreetmap.org/?mlat=-35.4292&mlon=-70.5689#map=14/-35.4292/-70.5689"
+                target="_blank"
+                rel="noopener"
+                >Ver en OpenStreetMap ↗</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <form class="form" action="" method="get">
+          <fieldset>
+            <legend>Solicitud de reserva</legend>
+            <div class="form-grid">
+              <div class="field">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Correo</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label for="telefono">Teléfono</label>
+                <input id="telefono" name="telefono" type="tel" autocomplete="tel" />
+              </div>
+              <div class="field">
+                <label for="actividad">Actividad</label>
+                <select id="actividad" name="actividad">
+                  <option value="" disabled selected>Seleccione una actividad</option>
+                  <option>Sendero Mirador Las Águilas</option>
+                  <option>Trekking Laguna Fría</option>
+                  <option>Mountain Bike Ruta del Valle</option>
+                  <option>Cabalgata Altiplano al Amanecer</option>
+                  <option>Cascada Escondida</option>
+                  <option>Observación de Estrellas en el Peñón</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="fecha">Fecha deseada</label>
+                <input id="fecha" name="fecha" type="date" />
+              </div>
+              <div class="field">
+                <label for="personas">Personas</label>
+                <input id="personas" name="personas" type="number" min="1" max="20" />
+              </div>
+              <div class="field field-full">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué experiencia buscas…"></textarea>
+              </div>
+              <div class="field field-full consent">
+                <label for="consentimiento">
+                  <input id="consentimiento" name="consentimiento" type="checkbox" required />
+                  <span>
+                    Acepto que mis datos personales se usen exclusivamente para
+                    gestionar esta solicitud, conforme a la Ley 19.628 de
+                    protección de datos personales.
+                  </span>
+                </label>
+              </div>
+              <div class="field-full">
+                <button class="button" type="submit">Enviar solicitud</button>
+                <p class="form-note">
+                  Resolveremos tu solicitud en un máximo de 24 horas hábiles.
+                </p>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="two-col">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Estamos para ayudarte</h2>
+        </div>
         <address>
           <ul class="contact-list">
             <li>
@@ -58,70 +141,7 @@
             <li><strong>Dirección</strong> Plaza Central s/n, Destino Cordillera</li>
           </ul>
         </address>
-        <div class="map-box">
-          Plaza Central s/n · Destino Cordillera (ubicación referencial)
-        </div>
       </div>
-
-      <form class="form" action="" method="get">
-        <fieldset>
-          <legend>Solicitud de reserva</legend>
-          <div class="form-grid">
-            <div class="field">
-              <label for="nombre">Nombre</label>
-              <input id="nombre" name="nombre" type="text" autocomplete="name" required />
-            </div>
-            <div class="field">
-              <label for="email">Correo</label>
-              <input id="email" name="email" type="email" autocomplete="email" required />
-            </div>
-            <div class="field">
-              <label for="telefono">Teléfono</label>
-              <input id="telefono" name="telefono" type="tel" autocomplete="tel" />
-            </div>
-            <div class="field">
-              <label for="actividad">Actividad</label>
-              <select id="actividad" name="actividad">
-                <option value="" disabled selected>Seleccione una actividad</option>
-                <option>Sendero Mirador Las Águilas</option>
-                <option>Trekking Laguna Fría</option>
-                <option>Mountain Bike Ruta del Valle</option>
-                <option>Cabalgata Altiplano al Amanecer</option>
-                <option>Cascada Escondida</option>
-                <option>Observación de Estrellas en el Peñón</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="fecha">Fecha deseada</label>
-              <input id="fecha" name="fecha" type="date" />
-            </div>
-            <div class="field">
-              <label for="personas">Personas</label>
-              <input id="personas" name="personas" type="number" min="1" max="20" />
-            </div>
-            <div class="field field-full">
-              <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué experiencia buscas…"></textarea>
-            </div>
-            <div class="field field-full consent">
-              <label for="consentimiento">
-                <input id="consentimiento" name="consentimiento" type="checkbox" required />
-                <span>
-                  Acepto que mis datos personales se usen exclusivamente para
-                  gestionar esta solicitud, conforme a la Ley 19.628 de
-                  protección de datos personales.
-                </span>
-              </label>
-            </div>
-            <div class="field-full">
-              <button class="button" type="submit">Enviar solicitud</button>
-              <p class="form-note">
-                Resolveremos tu solicitud en un máximo de 24 horas hábiles.
-              </p>
-            </div>
-          </div>
-        </fieldset>
-      </form>
     </section>
 
     <section class="band">
