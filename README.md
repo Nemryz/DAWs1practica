@@ -54,3 +54,16 @@ proyecto-web/
 ├── img/        (por agregar)
 ├── video/
 └── README.md
+
+## Referencias Utilizadas
+
+Cordillera Travel. (s. f.). *Cordillera Travel: experiencias de viaje y turismo de montaña*. Recuperado el 24 de septiembre de 2026, de https://www.cordillera.travel/
+
+Huilo Huilo. (s. f.). *Contacto*. Recuperado el 24 de septiembre de 2026, de https://huilohuilo.com/centro-de-ayuda/contacto/
+
+Las Estacas. (s. f.). *Las Estacas: un santuario natural en Morelos*. Recuperado el 24 de septiembre de 2026, de https://lasestacas.com/
+
+NOI Hotels. (s. f.). *NOI Puma Lodge*. Recuperado el 24 de septiembre de 2026, de https://www.noihotels.com/es/noi-puma-lodge
+
+YouTube. (s. f.). *Video de referencia sobre Destino Cordillera* [Video]. https://www.youtube.com/watch?v=S4baQnjGAbg
+
