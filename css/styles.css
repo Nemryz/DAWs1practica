@@ -488,3 +488,10 @@ textarea {
     grid-column: auto;
   }
 }
+
+.btn-primary {
+  --bs-btn-bg: #315C4D;
+  --bs-btn-border-color: #315C4D;
+  --bs-btn-hover-bg: #274a3e;
+  --bs-btn-hover-border-color: #274a3e;
+}
