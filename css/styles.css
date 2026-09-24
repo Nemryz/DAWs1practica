@@ -286,8 +286,24 @@ h3 {
   color: #cadbd1;
 }
 .page-hero {
+  position: relative;
+  overflow: hidden;
   background: var(--sand);
   padding: 74px 32px 82px;
+  color: var(--white);
+  text-align: left;
+}
+.page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(36, 58, 53, 0.74), rgba(36, 58, 53, 0.74)),
+    url("../img/imgCordillera.webp") center / cover;
+}
+.page-hero > * {
+  position: relative;
+  z-index: 1;
 }
 .page-hero-inner {
   max-width: 1240px;
@@ -295,15 +311,18 @@ h3 {
 }
 .page-hero h1 {
   max-width: 780px;
-  margin: 0 auto;
-  color: var(--forest);
+  margin: 0;
+  color: var(--white);
   font-size: clamp(50px, 7vw, 90px);
 }
 .page-hero p {
   max-width: 590px;
   margin: 22px 0 0;
-  color: #567066;
+  color: #edf3ee;
   font-size: 19px;
+}
+.page-hero .eyebrow {
+  color: #e8c4a4;
 }
 .activity-card,
 .stay-card {
@@ -490,8 +509,8 @@ textarea {
 }
 
 .btn-primary {
-  --bs-btn-bg: #315C4D;
-  --bs-btn-border-color: #315C4D;
+  --bs-btn-bg: #315c4d;
+  --bs-btn-border-color: #315c4d;
   --bs-btn-hover-bg: #274a3e;
   --bs-btn-hover-border-color: #274a3e;
 }
